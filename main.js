@@ -49,3 +49,13 @@ window.onscroll = () => {
     };
   });
 };
+
+//scroll
+window.onscroll = function() {
+  const header = document.querySelector('.header-class');
+  if (window.scrollY > 80) { // Adjust value as needed
+      header.classList.add('fixed');
+  } else {
+      header.classList.remove('fixed');
+  }
+};

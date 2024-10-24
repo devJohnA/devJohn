@@ -28,8 +28,13 @@ body {
     width: 100%;
 }
 
-.sticky-top{
-    background-color: #ffff;
+.header-class.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background-color: #fff; 
 }
 
 .navbar .logo {
@@ -264,6 +269,9 @@ body {
     margin-left:  2rem;
 }
 
+.contact-item .mail{
+    cursor: pointer;
+}
 .contact-item img {
     width: 40px;
     height: 40px;
