@@ -28,6 +28,10 @@ body {
     width: 100%;
 }
 
+.sticky-top{
+    background-color: #ffff;
+}
+
 .navbar .logo {
     text-decoration: none;
     color: #2d2e32;
